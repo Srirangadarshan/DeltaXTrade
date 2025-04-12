@@ -1,0 +1,24 @@
+{
+  "name": "stock-v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd Dashboard && npm run dev\" \"nodemon server.js\"",
+    "install-deps": "npm install && cd Dashboard && npm install"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.11",
+    "@types/plotly.js": "^2.35.4",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.0",
+    "pg": "^8.14.1",
+    "plotly.js": "^3.0.1",
+    "react-plotly.js": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react-plotly.js": "^2.6.3"
+  }
+}
