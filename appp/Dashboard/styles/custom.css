@@ -1,0 +1,14 @@
+/* Custom styles to improve text contrast */
+.text-gray-400 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Ensure table headers are more visible */
+.TableHead {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Improve contrast for card content text */
+.Card p {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
